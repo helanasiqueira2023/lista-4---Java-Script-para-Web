@@ -1,0 +1,42 @@
+<script>
+    let numero1 = parseInt(prompt("Informe o primeiro número:"))
+    let numero2 = parseInt(prompt("Informe o segundo número:"))
+    let oper = prompt("Informe uma operação que deseja operar: (+, -, * ou /)")
+
+    switch (oper) {
+
+        case '+':
+
+            var calc = numero1 + numero2
+            alert("Total: " + calc)
+            break;
+
+        case '-':
+
+            var calc = numero1 - numero2
+            alert("Total: " + calc)
+            break;
+
+        case '*':
+
+            var calc = numero1 * numero2
+            alert("Total: " + calc)
+            break;
+
+        case '/':
+
+            var calc = numero1 / numero2
+            alert("Total: " + calc)
+            break;
+
+        default: 
+        alert("Essa operação é inválida! ")
+        break;
+
+    }
+
+
+
+
+
+</script>
